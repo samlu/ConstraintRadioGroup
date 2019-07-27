@@ -5,7 +5,7 @@ A RadioGroup widget that can be used with ConstraintLayout
 Copy the `blRadioGroup.java` file to your source set and change the package name.
 
 ## Usage
-To group `RadioButton` widgets, adding a `blRadioGroup` tag to your layout file and use `app:constraint_referenced_ids` to specify RadioButton ids that will be managed by the radio group widget. 
+To group `RadioButton` widgets in a `ConstraintLayout`, you can add a `blRadioGroup` tag to the layout file and use `app:constraint_referenced_ids` to specify RadioButton ids that will be managed by this radio group widget. 
 
 Adding multiple `blRadioGroup` widgets to a `ConstraintLayout` is supported.
 
