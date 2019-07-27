@@ -9,7 +9,7 @@ To group `RadioButton` widgets in a `ConstraintLayout`, you can add a `blRadioGr
 
 Adding multiple `blRadioGroup` widgets to a `ConstraintLayout` is supported.
 
-For example:
+An example:
 
 ```java
 <android.support.constraint.ConstraintLayout
