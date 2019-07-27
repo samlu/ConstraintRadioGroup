@@ -45,7 +45,7 @@ rg.Check(R.id.btn2);
 // get current checked button id
 int nCheckedBtnId = rg.GetCheckedRadioButtonId();
 
-// monitor the checked button changes
+// monitor the change of checked button
 rg.SetOnCheckedChangeListener(new blRadioGroup.OnCheckedChangeListener() {
   @Override public void 
   OnCheckedChanged(blRadioGroup rg, @IdRes int nCheckedId)
