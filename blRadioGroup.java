@@ -149,7 +149,7 @@ public final class blRadioGroup extends ConstraintHelper {
     }
 
     /**
-     * @return selected RadioButton id, -1 if no selection
+     * @return selected RadioButton id, -1 if no checked button
      */
     public @IdRes int
     GetCheckedRadioButtonId()
@@ -158,7 +158,7 @@ public final class blRadioGroup extends ConstraintHelper {
     }
 
     /**
-     * @param nRadioButtonId set it as current selected
+     * @param nRadioButtonId set it as checked
      */
     public void
     Check(@IdRes int nRadioButtonId)
