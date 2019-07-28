@@ -11,7 +11,7 @@ Adding multiple `blRadioGroup` widgets to a `ConstraintLayout` is supported.
 
 An example:
 
-```java
+```xml
 <android.support.constraint.ConstraintLayout
   ...
   <RadioButton
